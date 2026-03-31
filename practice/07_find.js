@@ -9,8 +9,8 @@ const users = [
 // users 객체에서 id가 2인 요소 찾기
 
 //제미나이 답변
-const foundUser = users.find(user => user.id === 2);
-console.log(foundUser);
+const foundUser = users.find(user => user.id === 2);  //함수 표기 꿀팁: 화살표(=>) 뒤에 중괄호{}가 없으면, 그 줄의 계산 결과가 자동으로 return 됩니다. 그래서 return이라는 글자를 안 써도 되는 거예요.
+console.log(foundUser);                               // // [그릇] = [데이터더미].[찾기함수]( [판별기준함수] );
 
 // 선생님 답변
 
